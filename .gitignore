@@ -74,3 +74,8 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+test.txt
+*.iml
+*.xml
+.idea
