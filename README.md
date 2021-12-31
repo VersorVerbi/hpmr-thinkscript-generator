@@ -3,10 +3,12 @@
 
 # How to Use
 First make sure you have [Node.js](https://nodejs.org/en/) installed on your device, then follow instructions below to use this program.
+
+First, download the release ZIP and unzip it. Then open that folder in your command-line prompt.
 ### Windows
-Download the source code and use `node hpmr.js` at the command line to run the program.
+Use `node hpmr.js` at the command line to run the program.
 ### MacOS, Linux
-Download the source code and use `csv2thinkScript` at the command line to run the program.
+Use `csv2thinkScript` at the command line to run the program.
 ### Any OS
 If you add the downloaded folder to your PATH, you can do this anywhere and use relative file paths for the other files you'll use with the program.
 
