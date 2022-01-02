@@ -2,9 +2,13 @@
  Given a CSV file and a symbol, generates a thinkScript that shows hourly price movement ranges (HPMR)
 
 # How to Use
-First make sure you have [Node.js](https://nodejs.org/en/) installed on your device, then follow instructions below to use this program.
+First make sure you have [Node.js](https://nodejs.org/en/) installed on your device. This should also install `npm`, the
+Node package manager. (On Windows, it's installed to the same folder as Node itself, but that isn't necessarily added to
+the PATH, so if you want to use `npm` as a command-line command without including the whole filepath, make sure you also
+do that.)
 
-First, download the release ZIP and unzip it. Then open that folder in your command-line prompt.
+Now download the source code and unzip it. Then open that folder in your command-line prompt. Install the dependencies 
+using `npm i` (or `npm install`). (You only need to do this part once, unless dependencies change on an update.)
 ### Windows
 Use `node hpmr.js` at the command line to run the program.
 ### MacOS, Linux
